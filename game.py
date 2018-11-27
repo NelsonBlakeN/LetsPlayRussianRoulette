@@ -36,11 +36,12 @@ def simulate(respin=False):
             spin(revolver)
         shot_person_1 = revolver.pop()
 
-        if respin and not shot_person_1:
+        if respin:
             # If required, respin.
             revolver = [0] * 6
             spin(revolver)
-        shot_person_2 = revolver.pop()
+        if not shot_person_1:
+            shot_person_2 = revolver.pop()
 
     return shot_person_1, shot_person_2
 
