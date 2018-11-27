@@ -13,8 +13,10 @@ This game can be simulated by running `game.py` either with an argument represen
 ## Results
 The results of the test can be seen below. These numbers came from a single run of 10,000,000 simulations, but all other simulation runs of the same quantity gave similar results (within a few hundredths of a percent).
 
-<table border=1px>
-    <caption><b>Results - No Respin</b></caption>
+<table>
+    <tr>
+        <th colspan="3">Results - No Respin</th>
+    </tr>
     <tr>
         <th>Person</th>
         <th>Chance</th>
@@ -31,8 +33,10 @@ The results of the test can be seen below. These numbers came from a single run 
 
 <br>
 
-<table border=1px>
-    <caption><b>Results - Respin</b></caption>
+<table>
+    <tr>
+        <th colspan="3">Results - Respin</th>
+    </tr>
     <tr>
         <th>Person</th>
         <th>Chance</th>
